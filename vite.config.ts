@@ -12,7 +12,7 @@ export default defineConfig({
     federation({
       name: "wrapper-app",
       remotes: {
-        watchlist: "https://thankful-glacier-00b939403.5.azurestaticapps.net/assets/watchlistRemoteEntry.js",
+        watchlist: "https://gray-dune-044bbe303.5.azurestaticapps.net/assets/watchlistRemoteEntry.js",
         movies: "https://thankful-glacier-00b939403.5.azurestaticapps.net/assets/moviesRemoteEntry.js",
       },
       shared: ["react", "react-dom", "zustand", "axios"],
