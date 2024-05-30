@@ -12,8 +12,8 @@ export default defineConfig({
     federation({
       name: "wrapper-app",
       remotes: {
-        watchlist: "https://mfe-wishlist.vercel.app/assets/watchlistRemoteEntry.js",
-        movies: "https://mfe-movies.vercel.app/assets/moviesRemoteEntry.js",
+        watchlist: "https://thankful-glacier-00b939403.5.azurestaticapps.net/assets/watchlistRemoteEntry.js",
+        movies: "https://thankful-glacier-00b939403.5.azurestaticapps.net/assets/moviesRemoteEntry.js",
       },
       shared: ["react", "react-dom", "zustand", "axios"],
     }),
